@@ -1,21 +1,25 @@
 <?php
 class Demo{
-    function __construct()
+    public $dev="Punit";
+    function __construct($data)
     {
-        echo "<h1>This is app 1</h1>";
+        echo "<h1>Welcome to  $data $this->dev</h1>";
     }
-    function app2()
+    function app2($data)
     {
-        echo "<h1>This is app 2</h1>";
+        echo "<h1>This is $data</h1>";
     }
     function __destruct()
     {
-        echo "<h1>This is app 3</h1>";
+        echo "<h1>Bye Bye {$this->dev} </h1>";
     }
 }
-$obj=new demo;
+//$obj1=new demo;
+$obj2=new demo("OOPS Module 1");
+$obj2->dev="Code With Punit";
+//$obj2->app2("OOPS Module 2");
 
-$obj->app2();
+
 
 
 
