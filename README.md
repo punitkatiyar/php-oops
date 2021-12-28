@@ -1,6 +1,6 @@
 # php oops
 
-## php object oriented programing style 2021 
+## php object oriented programing style
 
 > class and object basic
 
