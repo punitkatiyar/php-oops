@@ -11,3 +11,5 @@
 > __construct()
 
 > __destruct()
+
+> abstraction
