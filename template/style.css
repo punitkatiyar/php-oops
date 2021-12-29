@@ -1,0 +1,8 @@
+*{ margin: 0; padding: 0;}
+header{ display: flex; justify-content:space-between; padding: 2%; background-color: royalblue;}
+header ul{ display: flex; width: 50%;}
+header ul li{ list-style: none; color: white; padding: 0% 2%;}
+header ul li a{ text-decoration: none; color: white;}
+#title{ font-size: 2rem;}
+#logo{ font-size: 2rem; color: tomato; margin-right: 2%;}
+
