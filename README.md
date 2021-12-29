@@ -13,3 +13,5 @@
 > __destruct()
 
 > abstraction
+
+> interface
